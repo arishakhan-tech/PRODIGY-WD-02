@@ -1,0 +1,88 @@
+ /* Background */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(120deg, #1d2671, #c33764);
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+/* Main container */
+.container {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);
+  width: 350px;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+  font-size: 2.2rem;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Time Display */
+#display {
+  font-size: 3.2rem;
+  margin-bottom: 25px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  background: rgba(0,0,0,0.4);
+  padding: 15px 25px;
+  border-radius: 12px;
+  box-shadow: inset 0 0 10px rgba(255,255,255,0.2);
+}
+
+/* Buttons */
+.buttons button {
+  border: none;
+  padding: 12px 22px;
+  margin: 6px;
+  font-size: 1rem;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.3s;
+  color: #fff;
+  font-weight: 500;
+}
+
+.buttons button:hover {
+  transform: translateY(-2px);
+}
+
+/* Button colors */
+.start { background: #27ae60; }
+.pause { background: #f39c12; }
+.reset { background: #e74c3c; }
+.lap   { background: #2980b9; }
+
+.start:hover { background: #2ecc71; }
+.pause:hover { background: #f1c40f; }
+.reset:hover { background: #c0392b; }
+.lap:hover   { background: #3498db; }
+
+/* Laps section */
+.laps {
+  margin-top: 25px;
+  text-align: left;
+  max-height: 180px;
+  overflow-y: auto;
+  padding-right: 8px;
+}
+
+.laps p {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 6px 12px;
+  border-radius: 8px;
+  margin: 6px 0;
+  font-size: 1rem;
+  font-weight: 400;
+  border-left: 4px solid #fff;
+}
