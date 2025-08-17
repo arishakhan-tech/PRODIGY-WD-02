@@ -24,4 +24,4 @@ CSS – For styling, gradient UI, and responsive layout
 
 JavaScript – For stopwatch functionality and interactivity
 HOW TO RUN
-clone: git clone https://github.com/arishakhan-tech/stylish-stopwatch.git
+clone: git clone https://github.com/arishakhan-tech/PRODIGY-WD-02.git
